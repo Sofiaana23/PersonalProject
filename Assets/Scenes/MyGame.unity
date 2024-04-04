@@ -237,7 +237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   environmentObjects:
-  - {fileID: 5071555915851589694, guid: e532945e283cca7478582f8a1880fdc7, type: 3}
+  - {fileID: 1046980615910131599, guid: cbfe4079c51c67c4a9367a4974bb3de9, type: 3}
   - {fileID: 2326545367731791999, guid: c83ccb193c6692141a77d66cfd2d60e2, type: 3}
   - {fileID: 3178950414636904552, guid: 4dab63808487c4341a703791e823cf0a, type: 3}
   - {fileID: 2485229802364985176, guid: 8641b17a4a5205641ab380ae254e9183, type: 3}
@@ -1214,6 +1214,10 @@ PrefabInstance:
     - target: {fileID: 2790829621640137415, guid: ae673409140e14e4689a014ba64d4e6e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902221659170768318, guid: ae673409140e14e4689a014ba64d4e6e, type: 3}
+      propertyPath: m_Constraints
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 3975039047915159878, guid: ae673409140e14e4689a014ba64d4e6e, type: 3}
       propertyPath: m_Name

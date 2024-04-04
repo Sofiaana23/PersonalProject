@@ -24,4 +24,10 @@ public class MoveDown : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    void OnCollision(Collider other){
+        if (other.CompareTag("Player")){
+            Destroy(gameObject);
+        }
+    }
 }
